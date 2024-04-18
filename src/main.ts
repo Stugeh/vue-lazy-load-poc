@@ -19,8 +19,4 @@ app.component(
   defineAsyncComponent(() => import("@/components/two.vue")),
 );
 
-// app.component("one", import("@/components/one.vue"));
-//
-// app.component("two", import("@/components/two.vue"));
-
 app.mount("#app");
